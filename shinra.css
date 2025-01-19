@@ -1,0 +1,122 @@
+.index-page {
+    background-image: url('/project-two/images2/shinralogo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body {
+    background-color: #e9e6e6;
+    /* Light grey for light mode */
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    /* Dark background for dark mode */
+    color: #ffffff;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+
+/* Custom Hamburger Button */
+.navbar-toggler {
+    border-color: #ffc107;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 193, 7, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Social Media Buttons in Footer */
+footer a {
+    margin: 0 10px;
+}
+
+footer i {
+    font-size: 1.5rem;
+}
+
+/* Navbar Styles */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 193, 7, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 193, 7, 0.9);
+}
+
+.navbar-dark .navbar-brand {
+    color: rgba(255, 193, 7, 1);
+}
+
+.index-page {
+    background-image: url('/project-two/images2/shinralogo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+/* Custom Hamburger Button */
+.navbar-toggler {
+    border-color: #ffc107;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 193, 7, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Social Media Buttons in Footer */
+footer a {
+    margin: 0 10px;
+}
+
+footer i {
+    font-size: 1.5rem;
+}
+
+/* Navbar Styles */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 193, 7, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 193, 7, 0.9);
+}
+
+.navbar-dark .navbar-brand {
+    color: rgba(255, 193, 7, 1);
+}
