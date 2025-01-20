@@ -20,6 +20,15 @@
     git pull
     // pull changes made in main from your github pull request
 
+    git branch
+    //will show a list of branches of my machine (relative to the repository)
+
+    git branch -D <branch-name>
+    // will delete a specific branch (do not need the <>)
+
+    git status
+    // will show uncommited changes
+
 
 
 
