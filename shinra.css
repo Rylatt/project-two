@@ -72,7 +72,15 @@ body {
     margin: 0;
     padding: 0;
     transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+main {
+    flex: 1;
+}
+
 
 body.dark-mode {
     background-color: #121212;
@@ -97,15 +105,6 @@ body.dark-mode textarea {
 
 body {
     font-family: "Times New Roman", Times, serif;
-}
-
-/* Social Media Buttons in Footer */
-footer a {
-    margin: 0 10px;
-}
-
-footer i {
-    font-size: 1.5rem;
 }
 
 /* Navbar Styles */
@@ -136,4 +135,54 @@ footer i {
     /* Set a maximum width if necessary */
     margin: 0 auto;
     /* Center the input boxes */
+}
+
+.digital-clock {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ffeb3b;
+    /* Yellow background */
+    color: #000000;
+    /* Black text */
+    font-family: 'Digital-7', sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+/* Styling for h1 elements */
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    /* Keeps the same font style */
+    overflow: hidden;
+    /* Ensures text does not overflow */
+    white-space: nowrap;
+    /* Keeps text in a single line */
+    border-right: .15em solid orange;
+    /* Creates a cursor effect */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
 }
