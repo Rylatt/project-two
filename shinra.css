@@ -146,8 +146,8 @@ body {
     color: #000000;
     /* Black text */
     font-family: 'Digital-7', sans-serif;
-    font-size: 2em;
-    padding: 10px;
+    font-size: 1.2em;
+    padding: 5px;
     border-radius: 5px;
     z-index: 1000;
 }
